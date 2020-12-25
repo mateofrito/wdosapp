@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'DOS';
+    src: url('./fonts/DOS.ttf');
+       
+    
+}
+
+.load-container{
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+}
+.win-load{
+    width: 100%;
+    max-width: 950px;
+    padding-top: 5%;
+    display: none;
+
+}
+.prompt-label{
+    font-family: 'DOS'!important;
+    display: inline-block;
+    
+}
+
+.dos-prompt-input{
+    display: inline-block;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'DOS'!important;
+}
+
+.dos-output{
+    font-family: 'DOS'!important;
+    display: inline-block;
+    margin-bottom: 0px;
+    
+}
+
+.stock-output{
+    color: greenyellow;
+}
+
+.padding{
+    padding-left: 50px;
+    padding-bottom: 0px;
+    margin-bottom: -5px;
+    font-family: 'DOS'!important;
+}
+
+.dos-prompt-container{
+width: 100%;
+display: inline-block;
+text-align: left;
+margin-bottom: 0px;
+margin-top: 0px;
+padding-left: 5px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.stock-prompt-container{
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+
+/*dos gui */
+.dos-gui-menu{
+width: 75%;
+display: inline-block;
+text-align: center;
+background-color: gray;
+color: white;
+font-family: 'DOS'!important;
+border-style: solid;
+border-color: #afa8af;
+
+}
+
+.dos-gui-titlebar{
+    width: 100%;
+    display: block;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+
+    font-family: 'DOS'!important;
+
+
+}
+.dos-gui-menubar{
+    width: 100%;
+    display: block;
+    background-color: #afa8af;
+    color: black;
+    font-family: 'DOS'!important;
+    text-align: left;
+
+}
+
+.dos-gui-content{
+    width: 100%;
+    background-color: #5057ff;
+    color: white;
+    font-family: 'DOS'!important;
+    margin-bottom: 0px!important;
+    padding-left: 2px;
+    font-size: 16px;
+}
+
+.dos-close{
+    float:right;
+    width: 25px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    font-family: 'DOS'!important;
+}
+
+.dos-close:hover{
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
